@@ -1,0 +1,28 @@
+FIRST install the git  then upload your project in git.
+->git init
+->git add
+->git commit
+-> git push -u origin main
+CHAPTER-2 ADDING branches
+by email we get request from Master after accepting we can modify 
+Modifying main (profile)
+->git branch
+after that in profile write the details and save it then 
+->git add
+-> git commit -m "changes"
+->git push -u origin main
+
+CHAPTER-3 MERGING main
+first add any other file in you branch then 
+->git add newfile
+->git commit -m "new chane"
+->git merge username
+
+CHAPTER-4 REST 
+->Git checkout main
+->Git add xyz
+->Git commit -m "ed"
+->git rest Head-1
+->git revert 23d35a7(keep your code)
+->git remote add origin https://github.com/swatiparmar2000/CongnizantSharepoint2025.git 
+->git push -u origin main
