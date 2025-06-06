@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(26, 48, 48);
+}
+
+h1 {
+    padding: 1em;
+    color: rgb(205, 176, 123);
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: rgb(212, 212, 117);
+    margin: 0.2em;
+    padding: 1em;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: blue;
+}
+
+p {
+    /* No styles yet */
+}
