@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Portal</title>
+  <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand">Campus Portal</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Announcements</a></li>
+        <li><a href="#">Upload File</a></li>
+        <li><a href="#">Suggestion</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to the Campus Portal</h1>
+    <p>Stay connected with all campus activities, news, and services.</p>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards-section">
+    <div class="card">
+      <h3>News & Announcements</h3>
+      <p>Get the latest updates from the campus administration.</p>
+    </div>
+    <div class="card">
+      <h3>Upcoming Events</h3>
+      <p>Check out what's happening on campus this month.</p>
+    </div>
+    <div class="card">
+      <h3>Student Services</h3>
+      <p>Access library, labs, leave requests, and more from here.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 Campus Portal. 
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

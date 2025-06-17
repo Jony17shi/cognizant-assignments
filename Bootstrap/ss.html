@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello, world!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <style>
+    .btn-custom {
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      position: relative;
+    }
+    .number-badge {
+      background-color: white;
+      color: black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body class="bg-light d-flex justify-content-center align-items-start min-vh-100 pt-4">
+
+  <div class="d-flex flex-row flex-wrap justify-content-center">
+    
+    <!-- Primary Button -->
+    <button type="button" class="btn btn-custom btn-primary">
+      Primary
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Secondary Button with Number -->
+    <button type="button" class="btn btn-custom btn-secondary">
+      <span class="number-badge">1</span>
+      Secondary
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Success Button with Number -->
+    <button type="button" class="btn btn-custom btn-success">
+      <span class="number-badge">2</span>
+      Success
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Danger Button -->
+    <button type="button" class="btn btn-custom btn-danger">
+      Danger
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Warning Button -->
+    <button type="button" class="btn btn-custom btn-warning">
+      Warning
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Info Button -->
+    <button type="button" class="btn btn-custom btn-info">
+      Info
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Light Button -->
+    <button type="button" class="btn btn-custom btn-light">
+      Light
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Dark Button -->
+    <button type="button" class="btn btn-custom btn-dark">
+      Dark
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <!-- Link Button -->
+    <button type="button" class="btn btn-custom btn-link">
+      Link
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L11.293 8 6.646 3.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
