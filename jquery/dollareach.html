@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var intArray = [100, 200, 300, 400, 500];
+            var result = '';
+
+            $.each(intArray, function (index, element) {
+                result += 'Index = ' + index + ', Value = ' + element + '<br/>';
+            });
+
+            $('#resultDiv').html(result);
+        });
+    </script>
+</head>
+
+<body style="font-family:Arial">
+    <div id="resultDiv"></div>
+</body>
+</html>

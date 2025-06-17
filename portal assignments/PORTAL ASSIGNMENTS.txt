@@ -1,0 +1,45 @@
+PORTAL ASSIGNMENTS
+
+HTML Assignment 3 - HTML - Inserting images
+((failed in 3 attempts because for the installation of npm taking longer time than given time.))
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsertingImages</title>
+</head>
+<body>
+  <h1>Inserting Images into Your Webpage</h1>
+  <p>This is an example of how to insert an image into your HTML document.</p>
+  <img 
+    src="https://plus.unsplash.com/premium_photo-1742945845688-d2e666a3b92a?q=80&w=1437&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    alt="Placeholder Image" 
+    width="300" 
+    height="200">
+  <p>Above is an image inserted using the <code>&lt;img&gt;</code> tag with a source URL. You can also use local images by providing a path to the file.</p>
+
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Assignment 4 -- putting formatting tags to use
+((facing issue that there is no workspace and I'm unable to see the tasks.))
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inserting Comments and Using hr</title>
+</head>
+<body>
+  <h1>Using Comments and Horizontal Rule</h1>
+  <!-- This is a simple paragraph to demonstrate the use of HTML comments. -->
+  <p>This is a simple paragraph to demonstrate the use of HTML comments.</p>
+  <hr />
+  <h2>Another Section Below the Line</h2>
+  <p>As you can see, there is a horizontal line above that separates this content.</p>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
